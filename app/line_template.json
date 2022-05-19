@@ -1,0 +1,71 @@
+{
+  "to": [
+    "Ue264f1475f688a0104f2e087ac52a227"
+  ],
+  "messages": [
+    {
+      "type": "flex",
+      "altText": "My Account Menu Button",
+      "contents": {
+        "type": "bubble",
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "ยินดีต้อนรับสู่ AIIndustries",
+              "weight": "bold",
+              "size": "xl"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "margin": "lg",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "spacing": "sm",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "Please press the bottom bellow to register or to reset password. For registration, you will need a user name provided by the AIIndustries",
+                      "wrap": true,
+                      "color": "#666666",
+                      "size": "sm"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "button",
+              "style": "primary",
+              "height": "sm",
+              "action": {
+                "type": "uri",
+                "label": "My Account",
+                "uri": "www.google.com"
+              },
+              "adjustMode": "shrink-to-fit"
+            },
+            {
+              "type": "spacer",
+              "size": "sm"
+            }
+          ],
+          "flex": 0
+        }
+      }
+    }
+  ]
+}

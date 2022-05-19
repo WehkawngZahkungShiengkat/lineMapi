@@ -1,0 +1,55 @@
+{
+  "to": [
+    "Ue264f1475f688a0104f2e087ac52a227"
+  ],
+  "messages": [
+    {
+      "type": "flex",
+      "altText": "this is a flex message",
+      "contents": {
+        "type": "bubble",
+        "hero": {
+            "type": "image",
+            "url": "https://cdn.staticcrate.com/stock-hd/effects/footagecrate-red-error-icon-prev-full.png",
+            "size": "full",
+            "aspectRatio": "20:20",
+            "aspectMode": "cover"
+          },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "ยินดีต้อนรับสู่ AIIndustries",
+              "weight": "bold",
+              "size": "xl"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "margin": "lg",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "spacing": "sm",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "window top back open",
+                      "wrap": true,
+                      "color": "#666666",
+                      "size": "sm"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
